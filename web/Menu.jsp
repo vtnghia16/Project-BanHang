@@ -38,9 +38,9 @@
                         <ul class="navbar-nav m-auto">
 
                             <c:if test="${sessionScope.acc.isAdmin ==1}">
-                            <li class="nav-item nav-item-link">
+<!--                            <li class="nav-item nav-item-link">
                                 <a class="nav-link" href="#">Quản Lý Tài Khoản</a>
-                            </li>
+                            </li>-->
                             </c:if>
 
                             <c:if test="${sessionScope.acc.isSell ==1}">

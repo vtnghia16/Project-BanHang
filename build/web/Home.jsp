@@ -83,7 +83,12 @@
                                                 <p style="color: #C5232B; font-weight: 700; margin-top: 8px; font-size: 16px">${o.price} VNĐ</p>
                                             </div>
                                             <div class="col card-size">
-                                                <a href="cart?id=${o.id}" class="btn btn-success btn-block" style="border: none; padding: 3px 0; margin-top: 66px; background: linear-gradient(to right, rgb(43, 88, 118), rgb(78, 67, 118))">Add to cart</a>
+                                                <a onclick="myFunction()" href="cart?id=${o.id}" class="btn btn-success btn-block" style="border: none; padding: 3px 0; margin-top: 66px; background: linear-gradient(to right, rgb(43, 88, 118), rgb(78, 67, 118))">Add to cart</a>
+                                                <script>
+                                                    function myFunction() {
+                                                      alert('Add to cart success!')
+                                                    }
+                                                </script>
                                             </div>
                                         </div>
                                     </div>

@@ -101,8 +101,8 @@
 
                                         </div> <!-- row.// -->
                                         <hr>
-                                        <a href="#" class="btn btn-lg btn-primary text-uppercase"> Buy now </a>
-                                        <a href="#" class="btn btn-lg btn-outline-primary text-uppercase" style="margin-left: 20px"> Add to cart </a>
+                                        <!--<a href="#" class="btn btn-lg btn-primary text-uppercase"> Buy now </a>-->
+                                        <a href="cart?id=${o.id}" class="btn btn-lg btn-outline-primary text-uppercase" style="margin-left: 20px"> Add to cart </a>
                                     </article> <!-- card-body.// -->
                                 </aside> <!-- col.// -->
                             </div> <!-- row.// -->

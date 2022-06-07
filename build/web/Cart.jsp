@@ -12,7 +12,112 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Cart</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 
+        * {
+                margin:0;
+                padding:0;
+                box-sizing:border-box;
+                -webkit-box-sizing:border-box;
+                -moz-box-sizing:border-box;
+                -webkit-font-smoothing:antialiased;
+                -moz-font-smoothing:antialiased;
+                -o-font-smoothing:antialiased;
+                font-smoothing:antialiased;
+                text-rendering:optimizeLegibility;
+        }
+
+
+  
+        #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+        #contact {
+                background:#F9F9F9;
+                padding:25px;
+                margin:50px 0;
+        }
+
+        #contact h3 {
+                color: #F96;
+                display: block;
+                font-size: 30px;
+                font-weight: 400;
+        }
+
+        #contact h4 {
+                margin:5px 0 15px;
+                display:block;
+                font-size:13px;
+        }
+
+        fieldset {
+                border: medium none !important;
+                margin: 0 0 10px;
+                min-width: 100%;
+                padding: 0;
+                width: 100%;
+        }
+
+        #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+                width:100%;
+                border:1px solid #CCC;
+                background:#FFF;
+                margin:0 0 5px;
+                padding:10px;
+        }
+
+        #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+                -webkit-transition:border-color 0.3s ease-in-out;
+                -moz-transition:border-color 0.3s ease-in-out;
+                transition:border-color 0.3s ease-in-out;
+                border:1px solid #AAA;
+        }
+
+        #contact textarea {
+                height:100px;
+                max-width:100%;
+          resize:none;
+        }
+
+        #contact button[type="submit"] {
+                cursor:pointer;
+                width:100%;
+                border:none;
+                background:#0CF;
+                color:#FFF;
+                margin:0 0 5px;
+                padding:10px;
+                font-size:15px;
+        }
+
+        #contact button[type="submit"]:hover {
+                background:#09C;
+                -webkit-transition:background 0.3s ease-in-out;
+                -moz-transition:background 0.3s ease-in-out;
+                transition:background-color 0.3s ease-in-out;
+        }
+
+        #contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+        #contact input:focus, #contact textarea:focus {
+                outline:0;
+                border:1px solid #999;
+        }
+        ::-webkit-input-placeholder {
+         color:#888;
+        }
+        :-moz-placeholder {
+         color:#888;
+        }
+        ::-moz-placeholder {
+         color:#888;
+        }
+        :-ms-input-placeholder {
+         color:#888;
+        }
+
+        </style>
     </head>
 
     <body>
@@ -72,15 +177,26 @@
 
                         <div class="row py-5 p-4 bg-white rounded shadow-sm">
                             <div class="col-lg-6">
-                                <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Voucher</div>
-                                <div class="p-4">
-                                    <div class="input-group mb-4 border rounded-pill p-2">
-                                        <input type="text" placeholder="Nhập Voucher" aria-describedby="button-addon3" class="form-control border-0">
-                                        <div class="input-group-append border-0">
-                                            <button id="button-addon3" type="button" class="btn btn-dark px-4 rounded-pill"><i class="fa fa-gift mr-2"></i>Sử dụng</button>
-                                        </div>
-                                    </div>
-                                </div>
+                                <div class="container" style="transform: translateY(-50px);">  
+                                    <form id="contact" action="" method="post">
+                                        <h3 style="color: black;margin-left: 76px;font-weight: 700;transform: translateY(-12px);">Thông tin thanh toán</h3>
+                                      <fieldset>
+                                        <input placeholder="Họ Tên" type="text" tabindex="1" required autofocus>
+                                      </fieldset>
+                                      <fieldset>
+                                        <input placeholder="Email" type="email" tabindex="2" required>
+                                      </fieldset>
+                                      <fieldset>
+                                        <input placeholder="Số điện thoại" type="tel" tabindex="3" required>
+                                      </fieldset>
+                                      <fieldset>
+                                        <input placeholder="Địa chỉ giao hàng" type="url" tabindex="4" required>
+                                      </fieldset>
+                                      <fieldset>
+                                        <textarea placeholder="Lời nhắn...." tabindex="5" required></textarea>
+                                      </fieldset>
+                                    </form>
+                                  </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Thành tiền</div>
@@ -92,7 +208,12 @@
                                         <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Tổng thanh toán</strong>
                                             <h5 class="font-weight-bold">${sum} ₫</h5>
                                         </li>
-                                    </ul><a href="order" class="btn btn-dark rounded-pill py-2 btn-block">Mua hàng</a>
+                                </ul ><a style="transform: translateY(20px);" onclick="myBuyProduct()" href="order" class="btn btn-dark rounded-pill py-2 btn-block">Mua hàng</a>
+                                <script>
+                                    function myBuyProduct() {
+                                        alert('Mua hàng thành công!')
+                                    }
+                                </script>
                                 </div>
                             </div>
                         </div>
