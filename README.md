@@ -2,10 +2,9 @@
 <br><br>
 <img src="https://github.com/vtnghia16/Sales-Website/assets/80100031/d932ea8d-9a0d-44e3-8958-a80db3aff009" alt="aa" width="450"/>
 <br><br>
-![image](https://github.com/vtnghia16/Ecommerce-Website/assets/80100031/e919d6c5-2fbd-409e-9a22-99a498951e78)
+<img src="https://github.com/vtnghia16/Ecommerce-Website/assets/80100031/e919d6c5-2fbd-409e-9a22-99a498951e78" alt="Trang chủ" width="450"/>
 <br><br>
-![image](https://github.com/vtnghia16/Ecommerce-Website/assets/80100031/6e4994ac-8175-4ee3-9e12-4b42c02236a5)
-
+<img src="https://github.com/vtnghia16/Ecommerce-Website/assets/80100031/6e4994ac-8175-4ee3-9e12-4b42c02236a5" alt="Trang chủ" width="450"/>
 
 <b>Đăng nhập</b>
 <br><br>
