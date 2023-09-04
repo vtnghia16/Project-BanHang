@@ -1,3 +1,5 @@
+<div align="center">
+  
 ### Trang chủ
 <img src="https://github.com/vtnghia16/Sales-Website/assets/80100031/efff03fd-7aae-4e7c-a1ed-7c1e2546b286" alt="Trang chủ" width="450"/>
 
@@ -25,6 +27,7 @@
 
 <img src="https://github.com/vtnghia16/Sales-Website/assets/80100031/ade4a57e-f891-4ec1-bd6a-d3438c6bc592" alt="Quản lý danh mục sản phẩm" width="450"/>
 
+</div>
 
 
 
