@@ -1,6 +1,6 @@
 <b>Trang chủ</b>
 <br><br>
-![image](https://github.com/vtnghia16/Ecommerce-Website/assets/80100031/abd7468b-74f6-47fb-a138-4f3daf790c45)
+<img src="https://github.com/vtnghia16/Sales-Website/assets/80100031/d932ea8d-9a0d-44e3-8958-a80db3aff009" alt="aa" width="450"/>
 <br><br>
 ![image](https://github.com/vtnghia16/Ecommerce-Website/assets/80100031/e919d6c5-2fbd-409e-9a22-99a498951e78)
 <br><br>
@@ -9,8 +9,7 @@
 
 <b>Đăng nhập</b>
 <br><br>
-<img src="https://github.com/vtnghia16/Ecommerce-Website/assets/80100031/08fc2404-d201-4a29-a39a-531dda9c5dff" alt="Đăng nhập" width="450"/>
-<img src="https://github.com/nptruong01/Banking-system-ver2/assets/113322089/9da8da20-cb92-40f8-9487-ea78cb6f78d0.png" alt="Login Form" width="450"/>
+<img src="https://github.com/vtnghia16/Ecommerce-Website/assets/80100031/08fc2404-d201-4a29-a39a-531dda9c5dff.png" alt="Đăng nhập" width="450"/>
 
 <b>Đăng ký</b>
 <br><br>
