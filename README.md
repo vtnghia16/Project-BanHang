@@ -9,7 +9,7 @@
 
 <b>Đăng nhập</b>
 <br><br>
-![image](https://github.com/vtnghia16/Ecommerce-Website/assets/80100031/08fc2404-d201-4a29-a39a-531dda9c5dff)
+<img src="https://github.com/vtnghia16/Ecommerce-Website/assets/80100031/08fc2404-d201-4a29-a39a-531dda9c5dff" alt="Đăng nhập" width="450"/>
 
 <b>Đăng ký</b>
 <br><br>
